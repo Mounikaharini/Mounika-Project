@@ -1,0 +1,9 @@
+create database pizza;
+use pizza;
+
+create table login(username varchar(25),password varchar(8),time varchar(100));
+select * from login;
+insert into login values("Mounika","12369875","11.31");
+
+create table placedOrder(C_name varchar(25),Mobile_Number varchar(10),Address varchar(200),Pizza_Type varchar(50),Quantity int,Total int);
+select * from placedOrder;
